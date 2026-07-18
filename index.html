@@ -233,12 +233,12 @@ pintrk('page');
 <section class="hero">
   <p class="hero-eyebrow">Safety Planning Tool</p>
   <h1>Home & Property<br><em>Safety Walkthrough</em></h1>
-  <p class="hero-sub">A room-by-room, step-by-step guide for families who want their home to support independence â safely, for years to come.</p>
+  <p class="hero-sub">A room-by-room, step-by-step guide for families who want their home to support independence — safely, for years to come.</p>
   <p class="trust-signal" style="font-size:12px;color:var(--sage);font-weight:500;margin-top:10px;letter-spacing:.02em">Built by family caregivers. Free, private, and honest. Nothing is saved or shared.</p>
   <div class="hero-badges">
-    <span class="badge">ð  Inside & Outside</span>
-    <span class="badge">ð¿ Yard & Garden</span>
-    <span class="badge">ð Printable Report</span>
+    <span class="badge">🏠 Inside & Outside</span>
+    <span class="badge">🌿 Yard & Garden</span>
+    <span class="badge">📋 Printable Report</span>
   </div>
 </section>
 
@@ -253,15 +253,15 @@ pintrk('page');
 </div>
 
 <div class="section-tabs" id="tab-bar">
-  <button class="tab active" onclick="showSection(0)">Start <span class="tab-check">â</span></button>
-  <button class="tab" onclick="showSection(1)">Arriving Home <span class="tab-check">â</span></button>
-  <button class="tab" onclick="showSection(2)">Entry & Doors <span class="tab-check">â</span></button>
-  <button class="tab" onclick="showSection(3)">Yard & Garden <span class="tab-check">â</span></button>
-  <button class="tab" onclick="showSection(4)">Bedroom <span class="tab-check">â</span></button>
-  <button class="tab" onclick="showSection(5)">Bathroom <span class="tab-check">â</span></button>
-  <button class="tab" onclick="showSection(6)">Kitchen <span class="tab-check">â</span></button>
-  <button class="tab" onclick="showSection(7)">Living Areas <span class="tab-check">â</span></button>
-  <button class="tab" onclick="showSection(8)">Report <span class="tab-check">â</span></button>
+  <button class="tab active" onclick="showSection(0)">Start <span class="tab-check">✓</span></button>
+  <button class="tab" onclick="showSection(1)">Arriving Home <span class="tab-check">✓</span></button>
+  <button class="tab" onclick="showSection(2)">Entry & Doors <span class="tab-check">✓</span></button>
+  <button class="tab" onclick="showSection(3)">Yard & Garden <span class="tab-check">✓</span></button>
+  <button class="tab" onclick="showSection(4)">Bedroom <span class="tab-check">✓</span></button>
+  <button class="tab" onclick="showSection(5)">Bathroom <span class="tab-check">✓</span></button>
+  <button class="tab" onclick="showSection(6)">Kitchen <span class="tab-check">✓</span></button>
+  <button class="tab" onclick="showSection(7)">Living Areas <span class="tab-check">✓</span></button>
+  <button class="tab" onclick="showSection(8)">Report <span class="tab-check">✓</span></button>
 </div>
 
 <main class="app-shell">
@@ -270,40 +270,40 @@ pintrk('page');
 <div class="section-panel active" id="panel-0">
   <div class="intro-card">
     <h2>You don't have to do this all at once.</h2>
-    <p>This walkthrough guides you through the home and property â inside and outside â one area at a time. Check off what's already safe. Note what needs attention. At the end, you'll have a prioritized report you can print and share.</p>
+    <p>This walkthrough guides you through the home and property — inside and outside — one area at a time. Check off what's already safe. Note what needs attention. At the end, you'll have a prioritized report you can print and share.</p>
     <div class="intro-sections">
-      <div class="intro-sec"><div class="is-icon">ð</div><div class="is-name">Arriving Home</div><div class="is-count">8 items</div></div>
-      <div class="intro-sec"><div class="is-icon">ðª</div><div class="is-name">Entry & Doors</div><div class="is-count">7 items</div></div>
-      <div class="intro-sec"><div class="is-icon">ð¿</div><div class="is-name">Yard & Garden</div><div class="is-count">10 items</div></div>
-      <div class="intro-sec"><div class="is-icon">ðï¸</div><div class="is-name">Bedroom</div><div class="is-count">7 items</div></div>
-      <div class="intro-sec"><div class="is-icon">ð¿</div><div class="is-name">Bathroom</div><div class="is-count">9 items</div></div>
-      <div class="intro-sec"><div class="is-icon">ð³</div><div class="is-name">Kitchen</div><div class="is-count">7 items</div></div>
-      <div class="intro-sec"><div class="is-icon">ðï¸</div><div class="is-name">Living Areas</div><div class="is-count">6 items</div></div>
+      <div class="intro-sec"><div class="is-icon">🚗</div><div class="is-name">Arriving Home</div><div class="is-count">8 items</div></div>
+      <div class="intro-sec"><div class="is-icon">🚪</div><div class="is-name">Entry & Doors</div><div class="is-count">7 items</div></div>
+      <div class="intro-sec"><div class="is-icon">🌿</div><div class="is-name">Yard & Garden</div><div class="is-count">10 items</div></div>
+      <div class="intro-sec"><div class="is-icon">🛏️</div><div class="is-name">Bedroom</div><div class="is-count">7 items</div></div>
+      <div class="intro-sec"><div class="is-icon">🚿</div><div class="is-name">Bathroom</div><div class="is-count">9 items</div></div>
+      <div class="intro-sec"><div class="is-icon">🍳</div><div class="is-name">Kitchen</div><div class="is-count">7 items</div></div>
+      <div class="intro-sec"><div class="is-icon">🛋️</div><div class="is-name">Living Areas</div><div class="is-count">6 items</div></div>
     </div>
-    <p class="intro-note">Check the box when something is already safe. Leave it unchecked if it needs attention â it'll appear in your report.</p>
-    <button class="btn-primary" onclick="gtag('event','tool_started',{tool_name:'home_safety_walkthrough'});showSection(1)">Begin the walkthrough â</button>
+    <p class="intro-note">Check the box when something is already safe. Leave it unchecked if it needs attention — it'll appear in your report.</p>
+    <button class="btn-primary" onclick="gtag('event','tool_started',{tool_name:'home_safety_walkthrough'});showSection(1)">Begin the walkthrough →</button>
   </div>
 </div>
 
 <!-- SECTION 1: ARRIVING HOME -->
 <div class="section-panel" id="panel-1">
   <div class="section-header">
-    <p class="section-eyebrow">Outside Â· Section 1 of 6</p>
-    <h2>ð Arriving Home</h2>
+    <p class="section-eyebrow">Outside · Section 1 of 6</p>
+    <h2>🚗 Arriving Home</h2>
     <p>The journey from car to front door is one of the most overlooked safety zones. Uneven pavement, poor lighting, and awkward distances cause more falls than most families realize.</p>
   </div>
 
   <div class="check-group">
     <div class="group-label">Driveway & Parking</div>
-    <div class="check-item" onclick="toggle(this)" data-risk="high" data-area="Arriving Home" data-text="Driveway surface is even â no cracks, heaves, or loose gravel that could catch a foot or cane">
+    <div class="check-item" onclick="toggle(this)" data-risk="high" data-area="Arriving Home" data-text="Driveway surface is even — no cracks, heaves, or loose gravel that could catch a foot or cane">
       <div class="check-box"><svg width="12" height="10" viewBox="0 0 12 10" fill="none"><path d="M1 5l3.5 3.5L11 1" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
       <div class="item-body">
-        <div class="item-text">Driveway surface is even â no cracks, heaves, or loose gravel</div>
+        <div class="item-text">Driveway surface is even — no cracks, heaves, or loose gravel</div>
         <div class="item-hint">Uneven surfaces are a leading cause of outdoor falls. Fill cracks with driveway filler; replace loose gravel with pavers or packed stone.</div>
       </div>
       <div class="risk-pill risk-high">High</div>
     </div>
-    <div class="check-item" onclick="toggle(this)" data-risk="high" data-area="Arriving Home" data-text="Parking spot is close to the entry path â distance from car door to walkway is manageable">
+    <div class="check-item" onclick="toggle(this)" data-risk="high" data-area="Arriving Home" data-text="Parking spot is close to the entry path — distance from car door to walkway is manageable">
       <div class="check-box"><svg width="12" height="10" viewBox="0 0 12 10" fill="none"><path d="M1 5l3.5 3.5L11 1" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
       <div class="item-body">
         <div class="item-text">Parking spot is close to the entry path</div>
@@ -327,19 +327,19 @@ pintrk('page');
       <div class="check-box"><svg width="12" height="10" viewBox="0 0 12 10" fill="none"><path d="M1 5l3.5 3.5L11 1" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
       <div class="item-body">
         <div class="item-text">Walkway to the door is smooth, level, and free of height changes</div>
-        <div class="item-hint">Any lip over Â½ inch should be ramped or repaired. Decorative edging can become a tripping hazard over time.</div>
+        <div class="item-hint">Any lip over ½ inch should be ramped or repaired. Decorative edging can become a tripping hazard over time.</div>
       </div>
       <div class="risk-pill risk-high">High</div>
     </div>
-    <div class="check-item" onclick="toggle(this)" data-risk="high" data-area="Arriving Home" data-text="Outdoor lighting illuminates the full path from car to door â bright enough to see at night">
+    <div class="check-item" onclick="toggle(this)" data-risk="high" data-area="Arriving Home" data-text="Outdoor lighting illuminates the full path from car to door — bright enough to see at night">
       <div class="check-box"><svg width="12" height="10" viewBox="0 0 12 10" fill="none"><path d="M1 5l3.5 3.5L11 1" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
       <div class="item-body">
         <div class="item-text">Outdoor lighting illuminates the full path from car to door</div>
-        <div class="item-hint">Motion-activated lights are ideal â they come on before a person reaches a dark zone. Solar path lights are inexpensive and easy to install.</div>
+        <div class="item-hint">Motion-activated lights are ideal — they come on before a person reaches a dark zone. Solar path lights are inexpensive and easy to install.</div>
       </div>
       <div class="risk-pill risk-high">High</div>
     </div>
-    <div class="check-item" onclick="toggle(this)" data-risk="med" data-area="Arriving Home" data-text="Walkway is wide enough for a walker or wheelchair â at least 36 inches across">
+    <div class="check-item" onclick="toggle(this)" data-risk="med" data-area="Arriving Home" data-text="Walkway is wide enough for a walker or wheelchair — at least 36 inches across">
       <div class="check-box"><svg width="12" height="10" viewBox="0 0 12 10" fill="none"><path d="M1 5l3.5 3.5L11 1" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
       <div class="item-body">
         <div class="item-text">Walkway is at least 36 inches wide (enough for a walker)</div>
@@ -347,10 +347,10 @@ pintrk('page');
       </div>
       <div class="risk-pill risk-med">Medium</div>
     </div>
-    <div class="check-item" onclick="toggle(this)" data-risk="low" data-area="Arriving Home" data-text="No seasonal hazards on the walkway â leaves cleared in fall, ice managed in winter, hoses stored in summer">
+    <div class="check-item" onclick="toggle(this)" data-risk="low" data-area="Arriving Home" data-text="No seasonal hazards on the walkway — leaves cleared in fall, ice managed in winter, hoses stored in summer">
       <div class="check-box"><svg width="12" height="10" viewBox="0 0 12 10" fill="none"><path d="M1 5l3.5 3.5L11 1" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
       <div class="item-body">
-        <div class="item-text">Seasonal hazards are managed â leaves, ice, hoses, tools stored away from path</div>
+        <div class="item-text">Seasonal hazards are managed — leaves, ice, hoses, tools stored away from path</div>
         <div class="item-hint">Wet leaves are as slippery as ice. A simple routine of clearing the path can prevent serious falls.</div>
       </div>
       <div class="risk-pill risk-low">Low</div>
@@ -359,48 +359,48 @@ pintrk('page');
       <div class="check-box"><svg width="12" height="10" viewBox="0 0 12 10" fill="none"><path d="M1 5l3.5 3.5L11 1" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
       <div class="item-body">
         <div class="item-text">Any exterior steps have a sturdy handrail on at least one side</div>
-        <div class="item-hint">Handrails should be graspable (1Â¼â2 inch diameter), extend the full length of the steps, and be firmly anchored â no wobble.</div>
+        <div class="item-hint">Handrails should be graspable (1¼–2 inch diameter), extend the full length of the steps, and be firmly anchored — no wobble.</div>
       </div>
       <div class="risk-pill risk-med">Medium</div>
     </div>
   </div>
 
   <div class="nav-row">
-    <button class="btn-secondary" onclick="showSection(0)">â Back</button>
-    <button class="btn-primary" onclick="showSection(2)">Entry & Doors â</button>
+    <button class="btn-secondary" onclick="showSection(0)">← Back</button>
+    <button class="btn-primary" onclick="showSection(2)">Entry & Doors →</button>
   </div>
 </div>
 
 <!-- SECTION 2: ENTRY & DOORS -->
 <div class="section-panel" id="panel-2">
   <div class="section-header">
-    <p class="section-eyebrow">Outside / Inside Â· Section 2 of 6</p>
-    <h2>ðª Entry & Doors</h2>
-    <p>Getting through the door â and back out again â should feel effortless. Heavy doors, high thresholds, and difficult locks are quiet barriers to independence.</p>
+    <p class="section-eyebrow">Outside / Inside · Section 2 of 6</p>
+    <h2>🚪 Entry & Doors</h2>
+    <p>Getting through the door — and back out again — should feel effortless. Heavy doors, high thresholds, and difficult locks are quiet barriers to independence.</p>
   </div>
 
   <div class="check-group">
     <div class="group-label">The Entry</div>
-    <div class="check-item" onclick="toggle(this)" data-risk="high" data-area="Entry & Doors" data-text="There is a level landing or porch at the main entry â at least 5x5 feet â so the door can be opened without stepping backward">
+    <div class="check-item" onclick="toggle(this)" data-risk="high" data-area="Entry & Doors" data-text="There is a level landing or porch at the main entry — at least 5x5 feet — so the door can be opened without stepping backward">
       <div class="check-box"><svg width="12" height="10" viewBox="0 0 12 10" fill="none"><path d="M1 5l3.5 3.5L11 1" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
       <div class="item-body">
-        <div class="item-text">Level landing at the main entry â door can be opened without stepping backward</div>
+        <div class="item-text">Level landing at the main entry — door can be opened without stepping backward</div>
         <div class="item-hint">Stepping backward on stairs or a slope while opening a door is a fall risk. A 5x5 ft landing gives safe room to maneuver.</div>
       </div>
       <div class="risk-pill risk-high">High</div>
     </div>
-    <div class="check-item" onclick="toggle(this)" data-risk="med" data-area="Entry & Doors" data-text="Door threshold height is low â under Â½ inch â or has a beveled ramp so it doesn't catch a foot, cane, or walker wheel">
+    <div class="check-item" onclick="toggle(this)" data-risk="med" data-area="Entry & Doors" data-text="Door threshold height is low — under ½ inch — or has a beveled ramp so it doesn't catch a foot, cane, or walker wheel">
       <div class="check-box"><svg width="12" height="10" viewBox="0 0 12 10" fill="none"><path d="M1 5l3.5 3.5L11 1" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
       <div class="item-body">
-        <div class="item-text">Door threshold is low (under Â½ inch) or has a beveled ramp</div>
-        <div class="item-hint">High thresholds catch toes and walker feet. Beveled threshold ramps cost $10â30 and install in minutes.</div>
+        <div class="item-text">Door threshold is low (under ½ inch) or has a beveled ramp</div>
+        <div class="item-hint">High thresholds catch toes and walker feet. Beveled threshold ramps cost $10–30 and install in minutes.</div>
       </div>
       <div class="risk-pill risk-med">Medium</div>
     </div>
-    <div class="check-item" onclick="toggle(this)" data-risk="low" data-area="Entry & Doors" data-text="A weatherproof chair or bench is available near the entry â a place to sit and remove shoes safely">
+    <div class="check-item" onclick="toggle(this)" data-risk="low" data-area="Entry & Doors" data-text="A weatherproof chair or bench is available near the entry — a place to sit and remove shoes safely">
       <div class="check-box"><svg width="12" height="10" viewBox="0 0 12 10" fill="none"><path d="M1 5l3.5 3.5L11 1" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
       <div class="item-body">
-        <div class="item-text">A place to sit near the entry â for putting on / removing shoes safely</div>
+        <div class="item-text">A place to sit near the entry — for putting on / removing shoes safely</div>
         <div class="item-hint">Standing on one leg to manage shoes is a balance challenge. A simple bench makes this moment safe and dignified.</div>
       </div>
       <div class="risk-pill risk-low">Low</div>
@@ -409,15 +409,15 @@ pintrk('page');
 
   <div class="check-group">
     <div class="group-label">Doors & Hardware</div>
-    <div class="check-item" onclick="toggle(this)" data-risk="med" data-area="Entry & Doors" data-text="Door handles are lever-style â not round knobs â so they can be operated with a closed fist or elbow">
+    <div class="check-item" onclick="toggle(this)" data-risk="med" data-area="Entry & Doors" data-text="Door handles are lever-style — not round knobs — so they can be operated with a closed fist or elbow">
       <div class="check-box"><svg width="12" height="10" viewBox="0 0 12 10" fill="none"><path d="M1 5l3.5 3.5L11 1" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
       <div class="item-body">
         <div class="item-text">Door handles are lever-style, not round knobs</div>
-        <div class="item-hint">Round knobs require grip strength and wrist rotation that can be painful or difficult with arthritis. Lever handles cost $20â60 and swap easily.</div>
+        <div class="item-hint">Round knobs require grip strength and wrist rotation that can be painful or difficult with arthritis. Lever handles cost $20–60 and swap easily.</div>
       </div>
       <div class="risk-pill risk-med">Medium</div>
     </div>
-    <div class="check-item" onclick="toggle(this)" data-risk="med" data-area="Entry & Doors" data-text="Exterior doors are not too heavy â can be opened and held with one hand while stepping through">
+    <div class="check-item" onclick="toggle(this)" data-risk="med" data-area="Entry & Doors" data-text="Exterior doors are not too heavy — can be opened and held with one hand while stepping through">
       <div class="check-box"><svg width="12" height="10" viewBox="0 0 12 10" fill="none"><path d="M1 5l3.5 3.5L11 1" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
       <div class="item-body">
         <div class="item-text">Doors can be opened with one hand while stepping through</div>
@@ -425,18 +425,18 @@ pintrk('page');
       </div>
       <div class="risk-pill risk-med">Medium</div>
     </div>
-    <div class="check-item" onclick="toggle(this)" data-risk="low" data-area="Entry & Doors" data-text="Door locks are simple to operate â a key lockbox or keypad entry is available so keys are never fumbled in the cold or dark">
+    <div class="check-item" onclick="toggle(this)" data-risk="low" data-area="Entry & Doors" data-text="Door locks are simple to operate — a key lockbox or keypad entry is available so keys are never fumbled in the cold or dark">
       <div class="check-box"><svg width="12" height="10" viewBox="0 0 12 10" fill="none"><path d="M1 5l3.5 3.5L11 1" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
       <div class="item-body">
-        <div class="item-text">A key lockbox or keypad entry is available â no fumbling with keys in the dark</div>
+        <div class="item-text">A key lockbox or keypad entry is available — no fumbling with keys in the dark</div>
         <div class="item-hint">Keypad or smart locks eliminate a hidden frustration and allow trusted family members access without an extra key. Entry-level models start at $40.</div>
       </div>
       <div class="risk-pill risk-low">Low</div>
     </div>
-    <div class="check-item" onclick="toggle(this)" data-risk="low" data-area="Entry & Doors" data-text="Entry mat is flat, thin, and non-slip â not a thick decorative mat that can shift or catch a toe">
+    <div class="check-item" onclick="toggle(this)" data-risk="low" data-area="Entry & Doors" data-text="Entry mat is flat, thin, and non-slip — not a thick decorative mat that can shift or catch a toe">
       <div class="check-box"><svg width="12" height="10" viewBox="0 0 12 10" fill="none"><path d="M1 5l3.5 3.5L11 1" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
       <div class="item-body">
-        <div class="item-text">Entry mat is flat, thin, and non-slip â not a thick mat that can shift or bunch</div>
+        <div class="item-text">Entry mat is flat, thin, and non-slip — not a thick mat that can shift or bunch</div>
         <div class="item-hint">Thick, decorative mats are among the most common indoor trip hazards. Replace with a thin, rubberized mat or remove entirely.</div>
       </div>
       <div class="risk-pill risk-low">Low</div>
@@ -444,38 +444,38 @@ pintrk('page');
   </div>
 
   <div class="nav-row">
-    <button class="btn-secondary" onclick="showSection(1)">â Back</button>
-    <button class="btn-primary" onclick="showSection(3)">Yard & Garden â</button>
+    <button class="btn-secondary" onclick="showSection(1)">← Back</button>
+    <button class="btn-primary" onclick="showSection(3)">Yard & Garden →</button>
   </div>
 </div>
 
 <!-- SECTION 3: YARD & GARDEN -->
 <div class="section-panel" id="panel-3">
   <div class="section-header">
-    <p class="section-eyebrow">Outside Â· Section 3 of 6</p>
-    <h2>ð¿ Yard, Garden & Outbuildings</h2>
-    <p>Staying connected to the yard â gardening, getting the mail, sitting outside â is part of a full life. This section helps you see what's safe and what simple changes can extend those years outdoors.</p>
+    <p class="section-eyebrow">Outside · Section 3 of 6</p>
+    <h2>🌿 Yard, Garden & Outbuildings</h2>
+    <p>Staying connected to the yard — gardening, getting the mail, sitting outside — is part of a full life. This section helps you see what's safe and what simple changes can extend those years outdoors.</p>
   </div>
 
   <div class="check-group">
     <div class="group-label">Yard Safety</div>
-    <div class="check-item" onclick="toggle(this)" data-risk="high" data-area="Yard & Garden" data-text="Yard is free of hidden hazards â no hoses, extension cords, or tools left across walking paths">
+    <div class="check-item" onclick="toggle(this)" data-risk="high" data-area="Yard & Garden" data-text="Yard is free of hidden hazards — no hoses, extension cords, or tools left across walking paths">
       <div class="check-box"><svg width="12" height="10" viewBox="0 0 12 10" fill="none"><path d="M1 5l3.5 3.5L11 1" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
       <div class="item-body">
         <div class="item-text">Yard is free of hoses, cords, or tools left across walking paths</div>
-        <div class="item-hint">Garden hoses are especially hazardous â they blend into grass and are hard to see. A hose reel or hook keeps them off the ground.</div>
+        <div class="item-hint">Garden hoses are especially hazardous — they blend into grass and are hard to see. A hose reel or hook keeps them off the ground.</div>
       </div>
       <div class="risk-pill risk-high">High</div>
     </div>
-    <div class="check-item" onclick="toggle(this)" data-risk="high" data-area="Yard & Garden" data-text="Lawn surface is reasonably even â no significant holes, ruts, or soft spots from irrigation or animal digging">
+    <div class="check-item" onclick="toggle(this)" data-risk="high" data-area="Yard & Garden" data-text="Lawn surface is reasonably even — no significant holes, ruts, or soft spots from irrigation or animal digging">
       <div class="check-box"><svg width="12" height="10" viewBox="0 0 12 10" fill="none"><path d="M1 5l3.5 3.5L11 1" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
       <div class="item-body">
-        <div class="item-text">Lawn surface is even â no holes, ruts, or soft spots</div>
+        <div class="item-text">Lawn surface is even — no holes, ruts, or soft spots</div>
         <div class="item-hint">Animal burrows, irrigation depressions, and tree root heaves all create fall risks. Fill and tamp down uneven areas seasonally.</div>
       </div>
       <div class="risk-pill risk-high">High</div>
     </div>
-    <div class="check-item" onclick="toggle(this)" data-risk="med" data-area="Yard & Garden" data-text="Steps or slopes between different yard levels have a handrail or are ramped â not just stepped down onto grass">
+    <div class="check-item" onclick="toggle(this)" data-risk="med" data-area="Yard & Garden" data-text="Steps or slopes between different yard levels have a handrail or are ramped — not just stepped down onto grass">
       <div class="check-box"><svg width="12" height="10" viewBox="0 0 12 10" fill="none"><path d="M1 5l3.5 3.5L11 1" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
       <div class="item-body">
         <div class="item-text">Level changes in the yard (steps, retaining walls) have a handrail or gentle slope</div>
@@ -483,7 +483,7 @@ pintrk('page');
       </div>
       <div class="risk-pill risk-med">Medium</div>
     </div>
-    <div class="check-item" onclick="toggle(this)" data-risk="low" data-area="Yard & Garden" data-text="Trash and recycling bins are easy to reach â not on uneven ground or behind a gate that is difficult to open">
+    <div class="check-item" onclick="toggle(this)" data-risk="low" data-area="Yard & Garden" data-text="Trash and recycling bins are easy to reach — not on uneven ground or behind a gate that is difficult to open">
       <div class="check-box"><svg width="12" height="10" viewBox="0 0 12 10" fill="none"><path d="M1 5l3.5 3.5L11 1" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
       <div class="item-body">
         <div class="item-text">Trash and recycling bins are easy to access and roll to the curb</div>
@@ -495,43 +495,43 @@ pintrk('page');
 
   <div class="check-group">
     <div class="group-label">Garden Access & Simplification</div>
-    <div class="check-item" onclick="toggle(this)" data-risk="med" data-area="Yard & Garden" data-text="Garden beds are raised or accessible â no need to kneel on the ground or reach down to ground level">
+    <div class="check-item" onclick="toggle(this)" data-risk="med" data-area="Yard & Garden" data-text="Garden beds are raised or accessible — no need to kneel on the ground or reach down to ground level">
       <div class="check-box"><svg width="12" height="10" viewBox="0 0 12 10" fill="none"><path d="M1 5l3.5 3.5L11 1" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
       <div class="item-body">
         <div class="item-text">Garden beds are raised or at a height that avoids kneeling on the ground</div>
-        <div class="item-hint">Raised beds at 24â30 inches allow gardening from a chair or standing with minimal bending. Getting up from the ground becomes harder â and riskier â over time.</div>
+        <div class="item-hint">Raised beds at 24–30 inches allow gardening from a chair or standing with minimal bending. Getting up from the ground becomes harder — and riskier — over time.</div>
       </div>
       <div class="risk-pill risk-med">Medium</div>
     </div>
-    <div class="check-item" onclick="toggle(this)" data-risk="low" data-area="Yard & Garden" data-text="Lightweight or ergonomic garden tools are available â long-handled tools reduce bending and heavy grip tools are replaced with softer-grip versions">
+    <div class="check-item" onclick="toggle(this)" data-risk="low" data-area="Yard & Garden" data-text="Lightweight or ergonomic garden tools are available — long-handled tools reduce bending and heavy grip tools are replaced with softer-grip versions">
       <div class="check-box"><svg width="12" height="10" viewBox="0 0 12 10" fill="none"><path d="M1 5l3.5 3.5L11 1" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
       <div class="item-body">
-        <div class="item-text">Lightweight or ergonomic garden tools are available â long handles, soft grips</div>
-        <div class="item-hint">Long-handled tools eliminate bending. Soft foam grips reduce hand strain. Tools should weigh no more than 2â3 lbs for safe solo use.</div>
+        <div class="item-text">Lightweight or ergonomic garden tools are available — long handles, soft grips</div>
+        <div class="item-hint">Long-handled tools eliminate bending. Soft foam grips reduce hand strain. Tools should weigh no more than 2–3 lbs for safe solo use.</div>
       </div>
       <div class="risk-pill risk-low">Low</div>
     </div>
-    <div class="check-item" onclick="toggle(this)" data-risk="low" data-area="Yard & Garden" data-text="Watering is simplified â drip irrigation, soaker hoses, or an automatic timer reduces the need to carry heavy watering cans or drag hoses">
+    <div class="check-item" onclick="toggle(this)" data-risk="low" data-area="Yard & Garden" data-text="Watering is simplified — drip irrigation, soaker hoses, or an automatic timer reduces the need to carry heavy watering cans or drag hoses">
       <div class="check-box"><svg width="12" height="10" viewBox="0 0 12 10" fill="none"><path d="M1 5l3.5 3.5L11 1" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
       <div class="item-body">
-        <div class="item-text">Watering is simplified â drip irrigation, soaker hoses, or a timer in place</div>
+        <div class="item-text">Watering is simplified — drip irrigation, soaker hoses, or a timer in place</div>
         <div class="item-hint">Carrying a full watering can or dragging a heavy hose is exhausting. A simple timer and soaker hose setup costs under $30 and removes the daily task entirely.</div>
       </div>
       <div class="risk-pill risk-low">Low</div>
     </div>
-    <div class="check-item" onclick="toggle(this)" data-risk="low" data-area="Yard & Garden" data-text="A kneeler bench with side handles is available for low gardening tasks â doubles as a step stool with support handles">
+    <div class="check-item" onclick="toggle(this)" data-risk="low" data-area="Yard & Garden" data-text="A kneeler bench with side handles is available for low gardening tasks — doubles as a step stool with support handles">
       <div class="check-box"><svg width="12" height="10" viewBox="0 0 12 10" fill="none"><path d="M1 5l3.5 3.5L11 1" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
       <div class="item-body">
         <div class="item-text">A kneeler bench with side handles is available for any ground-level tasks</div>
-        <div class="item-hint">A kneeler bench lets someone kneel safely and use the handles to push back up to standing â preserving independence for low gardening work.</div>
+        <div class="item-hint">A kneeler bench lets someone kneel safely and use the handles to push back up to standing — preserving independence for low gardening work.</div>
       </div>
       <div class="risk-pill risk-low">Low</div>
     </div>
-    <div class="check-item" onclick="toggle(this)" data-risk="low" data-area="Yard & Garden" data-text="Outdoor seating is sturdy and at a height that is easy to get up from â arms on the chair, firm base, not a low sling chair">
+    <div class="check-item" onclick="toggle(this)" data-risk="low" data-area="Yard & Garden" data-text="Outdoor seating is sturdy and at a height that is easy to get up from — arms on the chair, firm base, not a low sling chair">
       <div class="check-box"><svg width="12" height="10" viewBox="0 0 12 10" fill="none"><path d="M1 5l3.5 3.5L11 1" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
       <div class="item-body">
-        <div class="item-text">Outdoor seating is at a good height with arms â easy to get up from independently</div>
-        <div class="item-hint">Low sling chairs and Adirondack chairs look lovely but are very hard to rise from. Outdoor chairs with arms and a seat height of 17â19 inches work best.</div>
+        <div class="item-text">Outdoor seating is at a good height with arms — easy to get up from independently</div>
+        <div class="item-hint">Low sling chairs and Adirondack chairs look lovely but are very hard to rise from. Outdoor chairs with arms and a seat height of 17–19 inches work best.</div>
       </div>
       <div class="risk-pill risk-low">Low</div>
     </div>
@@ -539,10 +539,10 @@ pintrk('page');
 
   <div class="check-group">
     <div class="group-label">Garage & Outbuildings</div>
-    <div class="check-item" onclick="toggle(this)" data-risk="med" data-area="Yard & Garden" data-text="Path to garage, shed, or outbuilding is paved or level â not through uneven grass or over exposed roots">
+    <div class="check-item" onclick="toggle(this)" data-risk="med" data-area="Yard & Garden" data-text="Path to garage, shed, or outbuilding is paved or level — not through uneven grass or over exposed roots">
       <div class="check-box"><svg width="12" height="10" viewBox="0 0 12 10" fill="none"><path d="M1 5l3.5 3.5L11 1" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
       <div class="item-body">
-        <div class="item-text">Path to the garage or shed is level and paved â not through uneven grass</div>
+        <div class="item-text">Path to the garage or shed is level and paved — not through uneven grass</div>
         <div class="item-hint">Adding stepping stones or a simple gravel path creates a safe, defined route to outbuildings and removes the guesswork of where to step.</div>
       </div>
       <div class="risk-pill risk-med">Medium</div>
@@ -550,37 +550,37 @@ pintrk('page');
   </div>
 
   <div class="nav-row">
-    <button class="btn-secondary" onclick="showSection(2)">â Back</button>
-    <button class="btn-primary" onclick="showSection(4)">Bedroom â</button>
+    <button class="btn-secondary" onclick="showSection(2)">← Back</button>
+    <button class="btn-primary" onclick="showSection(4)">Bedroom →</button>
   </div>
 </div>
 
 <!-- SECTION 4: BEDROOM -->
 <div class="section-panel" id="panel-4">
   <div class="section-header">
-    <p class="section-eyebrow">Inside Â· Section 4 of 6</p>
-    <h2>ðï¸ Bedroom</h2>
-    <p>Many falls happen at night â the trip from bed to bathroom in the dark. Small changes here make a meaningful difference in nighttime safety.</p>
+    <p class="section-eyebrow">Inside · Section 4 of 6</p>
+    <h2>🛏️ Bedroom</h2>
+    <p>Many falls happen at night — the trip from bed to bathroom in the dark. Small changes here make a meaningful difference in nighttime safety.</p>
   </div>
   <div class="check-group">
     <div class="group-label">Bed & Nighttime Safety</div>
-    <div class="check-item" onclick="toggle(this)" data-risk="high" data-area="Bedroom" data-text="Bed height allows feet to rest flat on the floor when seated â not too low (hard to rise) or too high (feet dangle)">
+    <div class="check-item" onclick="toggle(this)" data-risk="high" data-area="Bedroom" data-text="Bed height allows feet to rest flat on the floor when seated — not too low (hard to rise) or too high (feet dangle)">
       <div class="check-box"><svg width="12" height="10" viewBox="0 0 12 10" fill="none"><path d="M1 5l3.5 3.5L11 1" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
       <div class="item-body">
-        <div class="item-text">Bed height lets feet rest flat on the floor when seated â not too low or too high</div>
-        <div class="item-hint">Ideal bed height is 20â23 inches from floor to top of mattress. Bed risers raise low beds; a lower bed frame or different mattress lowers a high one.</div>
+        <div class="item-text">Bed height lets feet rest flat on the floor when seated — not too low or too high</div>
+        <div class="item-hint">Ideal bed height is 20–23 inches from floor to top of mattress. Bed risers raise low beds; a lower bed frame or different mattress lowers a high one.</div>
       </div>
       <div class="risk-pill risk-high">High</div>
     </div>
-    <div class="check-item" onclick="toggle(this)" data-risk="high" data-area="Bedroom" data-text="A clear, lit path exists from the bed to the bathroom â night lights installed at floor level so the route is visible at 2am without turning on overhead lights">
+    <div class="check-item" onclick="toggle(this)" data-risk="high" data-area="Bedroom" data-text="A clear, lit path exists from the bed to the bathroom — night lights installed at floor level so the route is visible at 2am without turning on overhead lights">
       <div class="check-box"><svg width="12" height="10" viewBox="0 0 12 10" fill="none"><path d="M1 5l3.5 3.5L11 1" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
       <div class="item-body">
-        <div class="item-text">A lit path exists from bed to bathroom â night lights at floor level</div>
+        <div class="item-text">A lit path exists from bed to bathroom — night lights at floor level</div>
         <div class="item-hint">Plug-in night lights with motion sensors cost under $10 each and remove the need to find a switch in the dark. Place one in the bedroom and one in the hallway.</div>
       </div>
       <div class="risk-pill risk-high">High</div>
     </div>
-    <div class="check-item" onclick="toggle(this)" data-risk="med" data-area="Bedroom" data-text="A lamp or light switch is reachable from the bed without getting up â so lights can be turned on before standing">
+    <div class="check-item" onclick="toggle(this)" data-risk="med" data-area="Bedroom" data-text="A lamp or light switch is reachable from the bed without getting up — so lights can be turned on before standing">
       <div class="check-box"><svg width="12" height="10" viewBox="0 0 12 10" fill="none"><path d="M1 5l3.5 3.5L11 1" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
       <div class="item-body">
         <div class="item-text">A lamp or switch is reachable from the bed without getting up first</div>
@@ -588,7 +588,7 @@ pintrk('page');
       </div>
       <div class="risk-pill risk-med">Medium</div>
     </div>
-    <div class="check-item" onclick="toggle(this)" data-risk="med" data-area="Bedroom" data-text="Phone or medical alert device is within reach from the bed â not across the room">
+    <div class="check-item" onclick="toggle(this)" data-risk="med" data-area="Bedroom" data-text="Phone or medical alert device is within reach from the bed — not across the room">
       <div class="check-box"><svg width="12" height="10" viewBox="0 0 12 10" fill="none"><path d="M1 5l3.5 3.5L11 1" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
       <div class="item-body">
         <div class="item-text">Phone or medical alert device is within reach from the bed</div>
@@ -596,7 +596,7 @@ pintrk('page');
       </div>
       <div class="risk-pill risk-med">Medium</div>
     </div>
-    <div class="check-item" onclick="toggle(this)" data-risk="low" data-area="Bedroom" data-text="No rugs or clutter on the path from the bed to the door or bathroom â clear walking space of at least 3 feet on the exit side of the bed">
+    <div class="check-item" onclick="toggle(this)" data-risk="low" data-area="Bedroom" data-text="No rugs or clutter on the path from the bed to the door or bathroom — clear walking space of at least 3 feet on the exit side of the bed">
       <div class="check-box"><svg width="12" height="10" viewBox="0 0 12 10" fill="none"><path d="M1 5l3.5 3.5L11 1" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
       <div class="item-body">
         <div class="item-text">No rugs or clutter on the path from the bed to the door or bathroom</div>
@@ -604,47 +604,47 @@ pintrk('page');
       </div>
       <div class="risk-pill risk-low">Low</div>
     </div>
-    <div class="check-item" onclick="toggle(this)" data-risk="low" data-area="Bedroom" data-text="Closet is organized so frequently used clothing is at a reachable height â no regular need to use a step stool">
+    <div class="check-item" onclick="toggle(this)" data-risk="low" data-area="Bedroom" data-text="Closet is organized so frequently used clothing is at a reachable height — no regular need to use a step stool">
       <div class="check-box"><svg width="12" height="10" viewBox="0 0 12 10" fill="none"><path d="M1 5l3.5 3.5L11 1" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
       <div class="item-body">
-        <div class="item-text">Frequently used clothing and items are at a reachable height â no step stool needed daily</div>
+        <div class="item-text">Frequently used clothing and items are at a reachable height — no step stool needed daily</div>
         <div class="item-hint">Step stools are a significant fall risk. Reorganizing so everyday items are between hip and shoulder height removes this hazard entirely.</div>
       </div>
       <div class="risk-pill risk-low">Low</div>
     </div>
-    <div class="check-item" onclick="toggle(this)" data-risk="low" data-area="Bedroom" data-text="A sturdy surface is available to hold onto when getting dressed â a chair, dresser, or wall bar for balance">
+    <div class="check-item" onclick="toggle(this)" data-risk="low" data-area="Bedroom" data-text="A sturdy surface is available to hold onto when getting dressed — a chair, dresser, or wall bar for balance">
       <div class="check-box"><svg width="12" height="10" viewBox="0 0 12 10" fill="none"><path d="M1 5l3.5 3.5L11 1" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
       <div class="item-body">
         <div class="item-text">A sturdy surface is available for balance when getting dressed</div>
-        <div class="item-hint">Standing on one foot to put on pants or socks is a common fall moment. A chair to sit on â or a dresser to hold â makes dressing safe.</div>
+        <div class="item-hint">Standing on one foot to put on pants or socks is a common fall moment. A chair to sit on — or a dresser to hold — makes dressing safe.</div>
       </div>
       <div class="risk-pill risk-low">Low</div>
     </div>
   </div>
   <div class="nav-row">
-    <button class="btn-secondary" onclick="showSection(3)">â Back</button>
-    <button class="btn-primary" onclick="showSection(5)">Bathroom â</button>
+    <button class="btn-secondary" onclick="showSection(3)">← Back</button>
+    <button class="btn-primary" onclick="showSection(5)">Bathroom →</button>
   </div>
 </div>
 
 <!-- SECTION 5: BATHROOM -->
 <div class="section-panel" id="panel-5">
   <div class="section-header">
-    <p class="section-eyebrow">Inside Â· Section 5 of 6</p>
-    <h2>ð¿ Bathroom</h2>
+    <p class="section-eyebrow">Inside · Section 5 of 6</p>
+    <h2>🚿 Bathroom</h2>
     <p>The bathroom is the highest-risk room in the home. Wet surfaces, confined spaces, and the need for privacy make this the most important area to get right.</p>
   </div>
   <div class="check-group">
     <div class="group-label">Tub & Shower</div>
-    <div class="check-item" onclick="toggle(this)" data-risk="high" data-area="Bathroom" data-text="Grab bars are installed in the shower or tub â not just a towel bar, but proper grab bars anchored into wall studs">
+    <div class="check-item" onclick="toggle(this)" data-risk="high" data-area="Bathroom" data-text="Grab bars are installed in the shower or tub — not just a towel bar, but proper grab bars anchored into wall studs">
       <div class="check-box"><svg width="12" height="10" viewBox="0 0 12 10" fill="none"><path d="M1 5l3.5 3.5L11 1" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
       <div class="item-body">
-        <div class="item-text">Grab bars are installed in the shower or tub â anchored into studs, not just a towel bar</div>
+        <div class="item-text">Grab bars are installed in the shower or tub — anchored into studs, not just a towel bar</div>
         <div class="item-hint">A towel bar will pull out of the wall if someone falls against it. Proper grab bars are rated for 250+ lbs and are the single most impactful bathroom modification.</div>
       </div>
       <div class="risk-pill risk-high">High</div>
     </div>
-    <div class="check-item" onclick="toggle(this)" data-risk="high" data-area="Bathroom" data-text="Non-slip mat or textured surface is inside the shower or tub â not just outside it">
+    <div class="check-item" onclick="toggle(this)" data-risk="high" data-area="Bathroom" data-text="Non-slip mat or textured surface is inside the shower or tub — not just outside it">
       <div class="check-box"><svg width="12" height="10" viewBox="0 0 12 10" fill="none"><path d="M1 5l3.5 3.5L11 1" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
       <div class="item-body">
         <div class="item-text">Non-slip mat or textured strips are inside the tub or shower</div>
@@ -652,7 +652,7 @@ pintrk('page');
       </div>
       <div class="risk-pill risk-high">High</div>
     </div>
-    <div class="check-item" onclick="toggle(this)" data-risk="high" data-area="Bathroom" data-text="A shower chair or tub transfer bench is available â so bathing can be done seated if balance or endurance is a concern">
+    <div class="check-item" onclick="toggle(this)" data-risk="high" data-area="Bathroom" data-text="A shower chair or tub transfer bench is available — so bathing can be done seated if balance or endurance is a concern">
       <div class="check-box"><svg width="12" height="10" viewBox="0 0 12 10" fill="none"><path d="M1 5l3.5 3.5L11 1" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
       <div class="item-body">
         <div class="item-text">A shower chair or tub transfer bench is available for seated bathing</div>
@@ -660,7 +660,7 @@ pintrk('page');
       </div>
       <div class="risk-pill risk-high">High</div>
     </div>
-    <div class="check-item" onclick="toggle(this)" data-risk="med" data-area="Bathroom" data-text="A handheld shower head is installed â allows bathing while seated and rinsing without turning around under the spray">
+    <div class="check-item" onclick="toggle(this)" data-risk="med" data-area="Bathroom" data-text="A handheld shower head is installed — allows bathing while seated and rinsing without turning around under the spray">
       <div class="check-box"><svg width="12" height="10" viewBox="0 0 12 10" fill="none"><path d="M1 5l3.5 3.5L11 1" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
       <div class="item-body">
         <div class="item-text">A handheld shower head is installed</div>
@@ -671,23 +671,23 @@ pintrk('page');
   </div>
   <div class="check-group">
     <div class="group-label">Toilet & Floor</div>
-    <div class="check-item" onclick="toggle(this)" data-risk="high" data-area="Bathroom" data-text="A grab bar is installed beside the toilet â to assist sitting down and rising without relying on the toilet tank or nearby wall">
+    <div class="check-item" onclick="toggle(this)" data-risk="high" data-area="Bathroom" data-text="A grab bar is installed beside the toilet — to assist sitting down and rising without relying on the toilet tank or nearby wall">
       <div class="check-box"><svg width="12" height="10" viewBox="0 0 12 10" fill="none"><path d="M1 5l3.5 3.5L11 1" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
       <div class="item-body">
         <div class="item-text">A grab bar is beside the toilet for sitting down and rising</div>
-        <div class="item-hint">Rising from a low toilet requires significant leg strength. A side grab bar â or a raised toilet seat with arms â makes this safer and more independent.</div>
+        <div class="item-hint">Rising from a low toilet requires significant leg strength. A side grab bar — or a raised toilet seat with arms — makes this safer and more independent.</div>
       </div>
       <div class="risk-pill risk-high">High</div>
     </div>
-    <div class="check-item" onclick="toggle(this)" data-risk="med" data-area="Bathroom" data-text="Toilet seat height is adequate â 17 to 19 inches from the floor â or a raised toilet seat is in use">
+    <div class="check-item" onclick="toggle(this)" data-risk="med" data-area="Bathroom" data-text="Toilet seat height is adequate — 17 to 19 inches from the floor — or a raised toilet seat is in use">
       <div class="check-box"><svg width="12" height="10" viewBox="0 0 12 10" fill="none"><path d="M1 5l3.5 3.5L11 1" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
       <div class="item-body">
-        <div class="item-text">Toilet seat height is 17â19 inches from the floor</div>
-        <div class="item-hint">Standard toilets are 15 inches â too low for many older adults. A raised toilet seat ($20â60) or comfort-height toilet makes a significant difference.</div>
+        <div class="item-text">Toilet seat height is 17–19 inches from the floor</div>
+        <div class="item-hint">Standard toilets are 15 inches — too low for many older adults. A raised toilet seat ($20–60) or comfort-height toilet makes a significant difference.</div>
       </div>
       <div class="risk-pill risk-med">Medium</div>
     </div>
-    <div class="check-item" onclick="toggle(this)" data-risk="med" data-area="Bathroom" data-text="Bath mat outside the tub or shower has a non-slip backing and lies flat â not a mat that shifts or bunches">
+    <div class="check-item" onclick="toggle(this)" data-risk="med" data-area="Bathroom" data-text="Bath mat outside the tub or shower has a non-slip backing and lies flat — not a mat that shifts or bunches">
       <div class="check-box"><svg width="12" height="10" viewBox="0 0 12 10" fill="none"><path d="M1 5l3.5 3.5L11 1" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
       <div class="item-body">
         <div class="item-text">Bath mat outside the tub has a non-slip backing and lies flat</div>
@@ -695,47 +695,47 @@ pintrk('page');
       </div>
       <div class="risk-pill risk-med">Medium</div>
     </div>
-    <div class="check-item" onclick="toggle(this)" data-risk="low" data-area="Bathroom" data-text="Medicine cabinet and toiletries are organized at a reachable height â no reaching above the head for daily items">
+    <div class="check-item" onclick="toggle(this)" data-risk="low" data-area="Bathroom" data-text="Medicine cabinet and toiletries are organized at a reachable height — no reaching above the head for daily items">
       <div class="check-box"><svg width="12" height="10" viewBox="0 0 12 10" fill="none"><path d="M1 5l3.5 3.5L11 1" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
       <div class="item-body">
-        <div class="item-text">Daily items are organized at a reachable height â no overhead reaching needed</div>
+        <div class="item-text">Daily items are organized at a reachable height — no overhead reaching needed</div>
         <div class="item-hint">Reaching above shoulder height in a wet bathroom throws off balance. Organize so everything used daily is between waist and shoulder height.</div>
       </div>
       <div class="risk-pill risk-low">Low</div>
     </div>
   </div>
   <div class="nav-row">
-    <button class="btn-secondary" onclick="showSection(4)">â Back</button>
-    <button class="btn-primary" onclick="showSection(6)">Kitchen â</button>
+    <button class="btn-secondary" onclick="showSection(4)">← Back</button>
+    <button class="btn-primary" onclick="showSection(6)">Kitchen →</button>
   </div>
 </div>
 
 <!-- SECTION 6: KITCHEN -->
 <div class="section-panel" id="panel-6">
   <div class="section-header">
-    <p class="section-eyebrow">Inside Â· Section 6 of 6</p>
-    <h2>ð³ Kitchen</h2>
-    <p>The kitchen supports daily routines and a sense of capability. The goal is keeping it safe and usable â not taking it away.</p>
+    <p class="section-eyebrow">Inside · Section 6 of 6</p>
+    <h2>🍳 Kitchen</h2>
+    <p>The kitchen supports daily routines and a sense of capability. The goal is keeping it safe and usable — not taking it away.</p>
   </div>
   <div class="check-group">
     <div class="group-label">Access & Safety</div>
-    <div class="check-item" onclick="toggle(this)" data-risk="high" data-area="Kitchen" data-text="No rugs or mats on the kitchen floor â or all mats have non-slip backing and lie completely flat">
+    <div class="check-item" onclick="toggle(this)" data-risk="high" data-area="Kitchen" data-text="No rugs or mats on the kitchen floor — or all mats have non-slip backing and lie completely flat">
       <div class="check-box"><svg width="12" height="10" viewBox="0 0 12 10" fill="none"><path d="M1 5l3.5 3.5L11 1" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
       <div class="item-body">
-        <div class="item-text">No loose rugs in the kitchen â or all mats have non-slip backing and are completely flat</div>
+        <div class="item-text">No loose rugs in the kitchen — or all mats have non-slip backing and are completely flat</div>
         <div class="item-hint">Kitchen mats slide on smooth flooring, especially when someone carries a heavy pot or walks quickly. Remove them or replace with fully-gripped versions.</div>
       </div>
       <div class="risk-pill risk-high">High</div>
     </div>
-    <div class="check-item" onclick="toggle(this)" data-risk="med" data-area="Kitchen" data-text="Frequently used items are stored between counter height and eye level â no regular use of step stools to reach upper cabinets">
+    <div class="check-item" onclick="toggle(this)" data-risk="med" data-area="Kitchen" data-text="Frequently used items are stored between counter height and eye level — no regular use of step stools to reach upper cabinets">
       <div class="check-box"><svg width="12" height="10" viewBox="0 0 12 10" fill="none"><path d="M1 5l3.5 3.5L11 1" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
       <div class="item-body">
-        <div class="item-text">Frequently used items are between counter and eye level â no step stool needed daily</div>
+        <div class="item-text">Frequently used items are between counter and eye level — no step stool needed daily</div>
         <div class="item-hint">Reorganize so dishes, glasses, and pantry staples are in easy reach. Lazy Susans in lower cabinets and pull-down shelf systems bring upper storage into reach.</div>
       </div>
       <div class="risk-pill risk-med">Medium</div>
     </div>
-    <div class="check-item" onclick="toggle(this)" data-risk="med" data-area="Kitchen" data-text="A sturdy chair or stool with a back is available in the kitchen â so meal prep can be done seated when needed">
+    <div class="check-item" onclick="toggle(this)" data-risk="med" data-area="Kitchen" data-text="A sturdy chair or stool with a back is available in the kitchen — so meal prep can be done seated when needed">
       <div class="check-box"><svg width="12" height="10" viewBox="0 0 12 10" fill="none"><path d="M1 5l3.5 3.5L11 1" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
       <div class="item-body">
         <div class="item-text">A sturdy stool or chair is available so cooking can be done seated</div>
@@ -743,87 +743,87 @@ pintrk('page');
       </div>
       <div class="risk-pill risk-med">Medium</div>
     </div>
-    <div class="check-item" onclick="toggle(this)" data-risk="low" data-area="Kitchen" data-text="Stove knobs are easy to see and operate â large, high-contrast labels if needed, and an automatic stove shut-off is considered">
+    <div class="check-item" onclick="toggle(this)" data-risk="low" data-area="Kitchen" data-text="Stove knobs are easy to see and operate — large, high-contrast labels if needed, and an automatic stove shut-off is considered">
       <div class="check-box"><svg width="12" height="10" viewBox="0 0 12 10" fill="none"><path d="M1 5l3.5 3.5L11 1" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
       <div class="item-body">
-        <div class="item-text">Stove knobs are easy to see and operate â an auto shut-off device is considered</div>
+        <div class="item-text">Stove knobs are easy to see and operate — an auto shut-off device is considered</div>
         <div class="item-hint">An automatic stove shut-off device (like iGuardStove) turns off burners if no motion is detected nearby. A simple, affordable safety upgrade for anyone cooking alone.</div>
       </div>
       <div class="risk-pill risk-low">Low</div>
     </div>
-    <div class="check-item" onclick="toggle(this)" data-risk="low" data-area="Kitchen" data-text="Heavy items (cast iron, large pots, appliances) are stored at a low, reachable height â not on upper shelves where they must be lifted down overhead">
+    <div class="check-item" onclick="toggle(this)" data-risk="low" data-area="Kitchen" data-text="Heavy items (cast iron, large pots, appliances) are stored at a low, reachable height — not on upper shelves where they must be lifted down overhead">
       <div class="check-box"><svg width="12" height="10" viewBox="0 0 12 10" fill="none"><path d="M1 5l3.5 3.5L11 1" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
       <div class="item-body">
-        <div class="item-text">Heavy pots and appliances are stored low â not lifted down from overhead</div>
+        <div class="item-text">Heavy pots and appliances are stored low — not lifted down from overhead</div>
         <div class="item-hint">Lifting heavy items overhead is a strain and balance risk. Lower shelves, pull-out drawers, and countertop appliances eliminate the overhead lift.</div>
       </div>
       <div class="risk-pill risk-low">Low</div>
     </div>
-    <div class="check-item" onclick="toggle(this)" data-risk="low" data-area="Kitchen" data-text="A cart or rolling trolley is available to move hot dishes or groceries from one surface to another â instead of carrying">
+    <div class="check-item" onclick="toggle(this)" data-risk="low" data-area="Kitchen" data-text="A cart or rolling trolley is available to move hot dishes or groceries from one surface to another — instead of carrying">
       <div class="check-box"><svg width="12" height="10" viewBox="0 0 12 10" fill="none"><path d="M1 5l3.5 3.5L11 1" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
       <div class="item-body">
         <div class="item-text">A kitchen cart or rolling trolley is available for moving hot dishes or heavy groceries</div>
-        <div class="item-hint">A rolling cart eliminates the need to carry heavy or hot items across the kitchen â and doubles as extra counter space and a support surface.</div>
+        <div class="item-hint">A rolling cart eliminates the need to carry heavy or hot items across the kitchen — and doubles as extra counter space and a support surface.</div>
       </div>
       <div class="risk-pill risk-low">Low</div>
     </div>
   </div>
   <div class="nav-row">
-    <button class="btn-secondary" onclick="showSection(5)">â Back</button>
-    <button class="btn-primary" onclick="showSection(7)">Living Areas â</button>
+    <button class="btn-secondary" onclick="showSection(5)">← Back</button>
+    <button class="btn-primary" onclick="showSection(7)">Living Areas →</button>
   </div>
 </div>
 
 <!-- SECTION 7: LIVING AREAS -->
 <div class="section-panel" id="panel-7">
   <div class="section-header">
-    <p class="section-eyebrow">Inside Â· Final Section</p>
-    <h2>ðï¸ Living Areas & Hallways</h2>
-    <p>The spaces where life happens day-to-day. Small adjustments here â cords, lighting, furniture â make daily movement safe and confident.</p>
+    <p class="section-eyebrow">Inside · Final Section</p>
+    <h2>🛋️ Living Areas & Hallways</h2>
+    <p>The spaces where life happens day-to-day. Small adjustments here — cords, lighting, furniture — make daily movement safe and confident.</p>
   </div>
   <div class="check-group">
     <div class="group-label">Floors & Furniture</div>
-    <div class="check-item" onclick="toggle(this)" data-risk="high" data-area="Living Areas" data-text="All area rugs are secured with non-slip backing or double-sided tape â or removed from main walking paths">
+    <div class="check-item" onclick="toggle(this)" data-risk="high" data-area="Living Areas" data-text="All area rugs are secured with non-slip backing or double-sided tape — or removed from main walking paths">
       <div class="check-box"><svg width="12" height="10" viewBox="0 0 12 10" fill="none"><path d="M1 5l3.5 3.5L11 1" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
       <div class="item-body">
-        <div class="item-text">All area rugs are secured with non-slip backing â or removed from walking paths</div>
+        <div class="item-text">All area rugs are secured with non-slip backing — or removed from walking paths</div>
         <div class="item-hint">Rugs are one of the top causes of falls in the home. Non-slip rug pads, carpet tape, or simply removing the rug are all effective solutions.</div>
       </div>
       <div class="risk-pill risk-high">High</div>
     </div>
-    <div class="check-item" onclick="toggle(this)" data-risk="high" data-area="Living Areas" data-text="Electrical cords are routed along walls and secured â not crossing any walking path or doorway">
+    <div class="check-item" onclick="toggle(this)" data-risk="high" data-area="Living Areas" data-text="Electrical cords are routed along walls and secured — not crossing any walking path or doorway">
       <div class="check-box"><svg width="12" height="10" viewBox="0 0 12 10" fill="none"><path d="M1 5l3.5 3.5L11 1" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
       <div class="item-body">
-        <div class="item-text">Electrical cords are along walls and secured â not crossing any walking path</div>
-        <div class="item-hint">Cord covers or raceways along baseboards keep cords safe, tidy, and out of the walkway. This is a $10â20 fix with significant impact.</div>
+        <div class="item-text">Electrical cords are along walls and secured — not crossing any walking path</div>
+        <div class="item-hint">Cord covers or raceways along baseboards keep cords safe, tidy, and out of the walkway. This is a $10–20 fix with significant impact.</div>
       </div>
       <div class="risk-pill risk-high">High</div>
     </div>
-    <div class="check-item" onclick="toggle(this)" data-risk="med" data-area="Living Areas" data-text="Main seating (sofa, chairs) is at a height that is easy to rise from â not too low, and arms are available to push up from">
+    <div class="check-item" onclick="toggle(this)" data-risk="med" data-area="Living Areas" data-text="Main seating (sofa, chairs) is at a height that is easy to rise from — not too low, and arms are available to push up from">
       <div class="check-box"><svg width="12" height="10" viewBox="0 0 12 10" fill="none"><path d="M1 5l3.5 3.5L11 1" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
       <div class="item-body">
-        <div class="item-text">Main seating is at a height that is easy to rise from â with arms to push up from</div>
-        <div class="item-hint">Deep, low sofas look comfortable but are hard to get up from safely. Seat height of 17â18 inches with firm arms is the target. Lift chairs are worth considering.</div>
+        <div class="item-text">Main seating is at a height that is easy to rise from — with arms to push up from</div>
+        <div class="item-hint">Deep, low sofas look comfortable but are hard to get up from safely. Seat height of 17–18 inches with firm arms is the target. Lift chairs are worth considering.</div>
       </div>
       <div class="risk-pill risk-med">Medium</div>
     </div>
-    <div class="check-item" onclick="toggle(this)" data-risk="med" data-area="Living Areas" data-text="Walking paths through the home are clear and at least 3 feet wide â furniture is arranged so there is a direct, unobstructed route between key areas">
+    <div class="check-item" onclick="toggle(this)" data-risk="med" data-area="Living Areas" data-text="Walking paths through the home are clear and at least 3 feet wide — furniture is arranged so there is a direct, unobstructed route between key areas">
       <div class="check-box"><svg width="12" height="10" viewBox="0 0 12 10" fill="none"><path d="M1 5l3.5 3.5L11 1" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
       <div class="item-body">
         <div class="item-text">Walking paths through the home are at least 3 feet wide and unobstructed</div>
-        <div class="item-hint">Furniture should be arranged with clear paths in mind â especially bedroom â bathroom and living room â kitchen. 36 inches minimum allows for a walker.</div>
+        <div class="item-hint">Furniture should be arranged with clear paths in mind — especially bedroom → bathroom and living room → kitchen. 36 inches minimum allows for a walker.</div>
       </div>
       <div class="risk-pill risk-med">Medium</div>
     </div>
-    <div class="check-item" onclick="toggle(this)" data-risk="low" data-area="Living Areas" data-text="All main areas and hallways have adequate lighting â light switches are reachable at the entrance to every room">
+    <div class="check-item" onclick="toggle(this)" data-risk="low" data-area="Living Areas" data-text="All main areas and hallways have adequate lighting — light switches are reachable at the entrance to every room">
       <div class="check-box"><svg width="12" height="10" viewBox="0 0 12 10" fill="none"><path d="M1 5l3.5 3.5L11 1" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
       <div class="item-body">
-        <div class="item-text">All areas and hallways have good lighting â switches at the entrance to each room</div>
+        <div class="item-text">All areas and hallways have good lighting — switches at the entrance to each room</div>
         <div class="item-hint">Dim hallways between bright rooms cause momentary vision adjustment that affects balance. Brighter bulbs and accessible switches are simple improvements.</div>
       </div>
       <div class="risk-pill risk-low">Low</div>
     </div>
-    <div class="check-item" onclick="toggle(this)" data-risk="low" data-area="Living Areas" data-text="Stairs (if present) have secure handrails on both sides and good lighting at top and bottom â step edges are visible and non-slip">
+    <div class="check-item" onclick="toggle(this)" data-risk="low" data-area="Living Areas" data-text="Stairs (if present) have secure handrails on both sides and good lighting at top and bottom — step edges are visible and non-slip">
       <div class="check-box"><svg width="12" height="10" viewBox="0 0 12 10" fill="none"><path d="M1 5l3.5 3.5L11 1" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
       <div class="item-body">
         <div class="item-text">Stairs have handrails on both sides, good lighting, and visible non-slip step edges</div>
@@ -833,8 +833,8 @@ pintrk('page');
     </div>
   </div>
   <div class="nav-row">
-    <button class="btn-secondary" onclick="showSection(6)">â Back</button>
-    <button class="btn-danger" onclick="buildReport()">Generate my safety report â</button>
+    <button class="btn-secondary" onclick="showSection(6)">← Back</button>
+    <button class="btn-danger" onclick="buildReport()">Generate my safety report →</button>
   </div>
 </div>
 
@@ -846,7 +846,7 @@ pintrk('page');
 </main>
 
 <footer style="background:var(--ink);color:rgba(255,255,255,.5);text-align:center;padding:20px;font-size:12px;letter-spacing:.03em">
-  <strong style="color:rgba(255,255,255,.8)">The Prepared Life Shop</strong> Â· Yale, Michigan Â· Life happens. Best have a plan.
+  <strong style="color:rgba(255,255,255,.8)">The Prepared Life Shop</strong> · Yale, Michigan · Life happens. Best have a plan.
 </footer>
 
 <script>
@@ -862,7 +862,7 @@ const SECTIONS = [
   { id: 8, name: 'Report' },
 ];
 
-const SECTION_ICONS = ['','ð','ðª','ð¿','ðï¸','ð¿','ð³','ðï¸','ð'];
+const SECTION_ICONS = ['','🚗','🚪','🌿','🛏️','🚿','🍳','🛋️','📋'];
 
 function toggle(el) {
   el.classList.toggle('checked');
@@ -943,7 +943,7 @@ function buildReport() {
 
   html += `
     <div class="print-bar">
-      <p>ð¨ï¸ Print or save this report to share with family</p>
+      <p>🖨️ Print or save this report to share with family</p>
       <button onclick="window.print()">Print / Save PDF</button>
     </div>
     <div class="report-hero">
@@ -980,21 +980,21 @@ function buildReport() {
   if (needsWork === 0) {
     html += `
       <div class="safe-banner">
-        <div class="safe-banner-icon">ð¿</div>
+        <div class="safe-banner-icon">🌿</div>
         <div class="safe-banner-body">
           <div class="safe-banner-title">This home is in great shape.</div>
-          <div class="safe-banner-text">Every item was marked safe. That is a genuine accomplishment â and a gift to everyone who loves you or the person you care for. Consider revisiting this walkthrough every year, or after any change in health or mobility.</div>
+          <div class="safe-banner-text">Every item was marked safe. That is a genuine accomplishment — and a gift to everyone who loves you or the person you care for. Consider revisiting this walkthrough every year, or after any change in health or mobility.</div>
         </div>
       </div>`;
   }
 
   // Sections with issues
   const allSections = ['Arriving Home','Entry & Doors','Yard & Garden','Bedroom','Bathroom','Kitchen','Living Areas'];
-  const sectionIconMap = {'Arriving Home':'ð','Entry & Doors':'ðª','Yard & Garden':'ð¿','Bedroom':'ðï¸','Bathroom':'ð¿','Kitchen':'ð³','Living Areas':'ðï¸'};
+  const sectionIconMap = {'Arriving Home':'🚗','Entry & Doors':'🚪','Yard & Garden':'🌿','Bedroom':'🛏️','Bathroom':'🚿','Kitchen':'🍳','Living Areas':'🛋️'};
 
   if (high.length > 0) {
     html += `<div class="report-section" style="border-left:3px solid var(--high)">
-      <div class="report-section-title"><span class="report-section-icon">ð´</span> High Priority â Address These First</div>`;
+      <div class="report-section-title"><span class="report-section-icon">🔴</span> High Priority — Address These First</div>`;
     high.forEach(item => {
       html += `<div class="report-item">
         <div class="risk-pill risk-high" style="flex-shrink:0;margin-top:2px">High</div>
@@ -1006,7 +1006,7 @@ function buildReport() {
 
   if (med.length > 0) {
     html += `<div class="report-section" style="border-left:3px solid var(--med)">
-      <div class="report-section-title"><span class="report-section-icon">ð¡</span> Medium Priority â Plan Within 30 Days</div>`;
+      <div class="report-section-title"><span class="report-section-icon">🟡</span> Medium Priority — Plan Within 30 Days</div>`;
     med.forEach(item => {
       html += `<div class="report-item">
         <div class="risk-pill risk-med" style="flex-shrink:0;margin-top:2px">Medium</div>
@@ -1018,7 +1018,7 @@ function buildReport() {
 
   if (low.length > 0) {
     html += `<div class="report-section" style="border-left:3px solid var(--low)">
-      <div class="report-section-title"><span class="report-section-icon">ð¢</span> Lower Priority â Good to Address Over Time</div>`;
+      <div class="report-section-title"><span class="report-section-icon">🟢</span> Lower Priority — Good to Address Over Time</div>`;
     low.forEach(item => {
       html += `<div class="report-item">
         <div class="risk-pill risk-low" style="flex-shrink:0;margin-top:2px">Low</div>
@@ -1031,9 +1031,9 @@ function buildReport() {
   if (safe > 0) {
     html += `
       <div class="safe-banner" style="margin-top:8px">
-        <div class="safe-banner-icon">â</div>
+        <div class="safe-banner-icon">✅</div>
         <div class="safe-banner-body">
-          <div class="safe-banner-title">${safe} items are already safe â that matters.</div>
+          <div class="safe-banner-title">${safe} items are already safe — that matters.</div>
           <div class="safe-banner-text">Every item you checked off is one less risk. Safety is built in layers, and you've already done significant work. Focus on the high priority items first, then return to the rest when you're ready.</div>
         </div>
       </div>`;
@@ -1043,29 +1043,29 @@ function buildReport() {
     <div class="upsell">
       <h3>You noticed something worth fixing. That matters.</h3>
 
-      <p>A home safety walkthrough is the beginning â not the end. The families who navigate this best are the ones who got the full picture organized before a fall, a crisis, or a midnight phone call made every decision urgent at once.</p>
+      <p>A home safety walkthrough is the beginning — not the end. The families who navigate this best are the ones who got the full picture organized before a fall, a crisis, or a midnight phone call made every decision urgent at once.</p>
 
-      <p><em>The work you just did â walking through room by room, noting what needs attention â is an act of love. It deserves a complete plan to match.</em></p>
+      <p><em>The work you just did — walking through room by room, noting what needs attention — is an act of love. It deserves a complete plan to match.</em></p>
 
-      <h4 style="margin-top:24px;margin-bottom:8px;font-family:var(--font-display);color:var(--ink)">Aging Parents Care Planner â $10</h4>
-      <p>43 guided pages covering emergency contacts, medications, legal documents, financial overview, care action plan, and family meeting notes. The home safety section is built in â this walkthrough feeds directly into it.</p>
-      <p><em>From reactive worry â proactive planning.</em></p>
+      <h4 style="margin-top:24px;margin-bottom:8px;font-family:var(--font-display);color:var(--ink)">Aging Parents Care Planner — $10</h4>
+      <p>43 guided pages covering emergency contacts, medications, legal documents, financial overview, care action plan, and family meeting notes. The home safety section is built in — this walkthrough feeds directly into it.</p>
+      <p><em>From reactive worry → proactive planning.</em></p>
 
-      <h4 style="margin-top:20px;margin-bottom:8px;font-family:var(--font-display);color:var(--ink)">Aging Parents Care Bundle â $17.99</h4>
-      <p>The complete system â care planner, financial tracker, and caregiver pocket guide. Everything your family needs in one download. Best value if you're starting from scratch.</p>
+      <h4 style="margin-top:20px;margin-bottom:8px;font-family:var(--font-display);color:var(--ink)">Aging Parents Care Bundle — $17.99</h4>
+      <p>The complete system — care planner, financial tracker, and caregiver pocket guide. Everything your family needs in one download. Best value if you're starting from scratch.</p>
       <p><em>One download. The full picture.</em></p>
 
-      <h4 style="margin-top:20px;margin-bottom:8px;font-family:var(--font-display);color:var(--ink)">Elder Care Financial Planner â $11</h4>
+      <h4 style="margin-top:20px;margin-bottom:8px;font-family:var(--font-display);color:var(--ink)">Elder Care Financial Planner — $11</h4>
       <p>6-tab Excel and Google Sheets system. Budget tracker, insurance log, asset inventory, care cost projector. Because the home is only one piece of the picture.</p>
       <p><em>The financial side, organized.</em></p>
 
       <a href="https://www.etsy.com/shop/ThePreparedLifeShop" target="_blank" rel="noopener">
-        <button class="btn-danger">Visit The Prepared Life Shop on Etsy â</button>
+        <button class="btn-danger">Visit The Prepared Life Shop on Etsy →</button>
       </a>
 
       <hr style="margin:28px 0;border:none;border-top:1px solid var(--border);">
 
-      <p style="font-style:italic;text-align:center;color:var(--ink-mid);font-size:0.95rem;">The home you just walked through is someone's whole world. The care you're putting into this â noticing, planning, preparing â that's what keeps it that way.</p>
+      <p style="font-style:italic;text-align:center;color:var(--ink-mid);font-size:0.95rem;">The home you just walked through is someone's whole world. The care you're putting into this — noticing, planning, preparing — that's what keeps it that way.</p>
     </div>
     <div style="text-align:center;margin-top:20px">
       <button class="btn-secondary" onclick="showSection(1); document.querySelectorAll('.check-item').forEach(el=>el.classList.remove('checked')); updateProgress()">Start a new walkthrough</button>
@@ -1084,7 +1084,7 @@ updateProgress();
   <footer style="max-width:680px;margin:40px auto 60px;padding:0 20px;">
       <div style="background:#fdfcfa;border:1px solid #ddd9d3;border-radius:16px;padding:28px;">
             <h2 style="font-family:'Lora',Georgia,serif;font-size:19px;font-weight:600;color:#2d2d2a;margin-bottom:6px;">Related Free Tools</h2>
-            <p style="font-size:13px;color:#5a5955;font-weight:300;margin-bottom:18px;">More tools from The Prepared Life Shop â life happens, best have a plan.</p>
+            <p style="font-size:13px;color:#5a5955;font-weight:300;margin-bottom:18px;">More tools from The Prepared Life Shop — life happens, best have a plan.</p>
             <div style="display:flex;flex-wrap:wrap;gap:10px;">
                     <a href="https://thepreparedlifestore.com/" style="display:inline-block;padding:8px 16px;border:1.5px solid #c4913a;border-radius:20px;font-family:'DM Sans',sans-serif;font-size:13px;color:#2d2d2a;text-decoration:none;">All Free Tools</a>
                     <a href="https://thepreparedlifestore.com/home-safety-walkthrough/" style="display:inline-block;padding:8px 16px;border:1.5px solid #c4913a;border-radius:20px;font-family:'DM Sans',sans-serif;font-size:13px;color:#2d2d2a;text-decoration:none;">Home Safety Walkthrough</a>
