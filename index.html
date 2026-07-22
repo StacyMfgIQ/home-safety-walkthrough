@@ -1040,31 +1040,57 @@ function buildReport() {
   }
 
   html += `
-    <div class="upsell">
-      <h3>You noticed something worth fixing. That matters.</h3>
-
-      <p>A home safety walkthrough is the beginning — not the end. The families who navigate this best are the ones who got the full picture organized before a fall, a crisis, or a midnight phone call made every decision urgent at once.</p>
-
-      <p><em>The work you just did — walking through room by room, noting what needs attention — is an act of love. It deserves a complete plan to match.</em></p>
-
-      <h4 style="margin-top:24px;margin-bottom:8px;font-family:var(--font-display);color:var(--ink)">Aging Parents Care Planner — $10</h4>
-      <p>43 guided pages covering emergency contacts, medications, legal documents, financial overview, care action plan, and family meeting notes. The home safety section is built in — this walkthrough feeds directly into it.</p>
-      <p><em>From reactive worry → proactive planning.</em></p>
-
-      <h4 style="margin-top:20px;margin-bottom:8px;font-family:var(--font-display);color:var(--ink)">Aging Parents Care Bundle — $17.99</h4>
-      <p>The complete system — care planner, financial tracker, and caregiver pocket guide. Everything your family needs in one download. Best value if you're starting from scratch.</p>
-      <p><em>One download. The full picture.</em></p>
-
-      <h4 style="margin-top:20px;margin-bottom:8px;font-family:var(--font-display);color:var(--ink)">Elder Care Financial Planner — $11</h4>
-      <p>6-tab Excel and Google Sheets system. Budget tracker, insurance log, asset inventory, care cost projector. Because the home is only one piece of the picture.</p>
-      <p><em>The financial side, organized.</em></p>
-
-      <a href="https://www.etsy.com/shop/ThePreparedLifeShop" target="_blank" rel="noopener">
-        <button class="btn-danger">Visit The Prepared Life Shop on Etsy →</button>
-      </a>
-
+    <div class="upsell" style="text-align:left">
+      <h3 style="text-align:center">You noticed something worth fixing. That matters.</h3>
+      <p style="text-align:center">A home safety walkthrough is the beginning — not the end. The families who navigate this best are the ones who got the full picture organized before a fall, a crisis, or a midnight phone call made every decision urgent at once.</p>
+      <div style="background:#fdf6ea;border:1.5px solid #c4913a;border-radius:14px;padding:24px;margin:24px 0">
+        <div style="font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:#c4913a;font-weight:600;margin-bottom:6px">A little something extra</div>
+        <h4 style="font-family:var(--font-display);color:var(--ink);margin-bottom:4px">Your prioritized report is ready</h4>
+        <p style="font-size:13px;color:var(--ink-mid);margin-bottom:16px">Many families print it and keep it with two short companion pages: one that helps start the conversation, and one that lists five quiet, low-tech helpers that often match the priorities on the report. Together they become the beginning of a simple home-safety plan.</p>
+        <div style="display:flex;flex-direction:column;gap:8px">
+          <a href="https://thepreparedlifestore.com/home-safety-walkthrough/downloads/five-quiet-helpers.pdf" target="_blank" rel="noopener" style="text-decoration:none">
+            <div style="background:#fff;border:1px solid #e6d3a8;border-radius:10px;padding:12px 16px;display:flex;align-items:center;justify-content:space-between;gap:10px">
+              <div><div style="font-size:13px;font-weight:500;color:var(--sage)">Five Quiet Helpers</div><div style="font-size:12px;color:var(--ink-mid);margin-top:2px">Low-tech supports that protect independence without making the house feel medical.</div></div>
+              <div style="font-size:11px;font-weight:500;color:#c4913a;white-space:nowrap;flex-shrink:0">Free &rarr;</div>
+            </div>
+          </a>
+          <a href="https://thepreparedlifestore.com/home-safety-walkthrough/downloads/staying-independent-longer.pdf" target="_blank" rel="noopener" style="text-decoration:none">
+            <div style="background:#fff;border:1px solid #e6d3a8;border-radius:10px;padding:12px 16px;display:flex;align-items:center;justify-content:space-between;gap:10px">
+              <div><div style="font-size:13px;font-weight:500;color:var(--sage)">Staying Independent Longer</div><div style="font-size:12px;color:var(--ink-mid);margin-top:2px">How to open the conversation, plus practical solutions that help.</div></div>
+              <div style="font-size:11px;font-weight:500;color:#c4913a;white-space:nowrap;flex-shrink:0">Free &rarr;</div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div style="background:var(--sage-pale);border:1.5px solid var(--sage-mid);border-radius:14px;padding:22px;margin-bottom:24px;text-align:center">
+        <p style="font-size:13px;color:var(--sage);font-weight:500;margin-bottom:6px">Wondering if it's time for a bigger conversation?</p>
+        <h4 style="font-family:var(--font-display);color:var(--ink);margin-bottom:10px">Can They Still Live Alone?</h4>
+        <a href="https://thepreparedlifestore.com/can-they-live-alone/" style="display:inline-block;padding:10px 20px;border:1.5px solid var(--sage);border-radius:20px;font-size:13px;color:var(--sage);text-decoration:none;font-weight:500">Try the free assessment &rarr;</a>
+      </div>
+      <p style="text-align:center"><em>The work you just did — walking through room by room, noting what needs attention — is an act of love. It deserves a complete plan to match.</em></p>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;margin-top:20px">
+        <div style="background:#fff;border:1px solid var(--sage-mid);border-radius:14px;padding:20px">
+          <h4 style="font-family:var(--font-display);color:var(--ink);margin-bottom:8px">Kickstart Planner — $7</h4>
+          <p style="font-size:13px;color:var(--ink-mid);margin-bottom:8px">Something changed, and you need direction now. A short, focused planner for the first steps after a fall, a diagnosis, or a scare — not the whole system, just what matters right now.</p>
+          <p style="font-size:12.5px;color:var(--ink-mid);font-style:italic">From overwhelmed &rarr; oriented.</p>
+        </div>
+        <div style="background:#fff;border:1px solid var(--sage-mid);border-radius:14px;padding:20px">
+          <h4 style="font-family:var(--font-display);color:var(--ink);margin-bottom:8px">Aging Parents Care Bundle — $17.99</h4>
+          <p style="font-size:13px;color:var(--ink-mid);margin-bottom:8px">The complete system — care planner, financial tracker, and caregiver pocket guide. Everything your family needs in one download. Best value if you're starting from scratch.</p>
+          <p style="font-size:12.5px;color:var(--ink-mid);font-style:italic">One download. The full picture.</p>
+        </div>
+        <div style="background:#fff;border:1px solid var(--sage-mid);border-radius:14px;padding:20px">
+          <h4 style="font-family:var(--font-display);color:var(--ink);margin-bottom:8px">Elder Care Financial Planner — $11</h4>
+          <p style="font-size:13px;color:var(--ink-mid);margin-bottom:8px">6-tab Excel and Google Sheets system. Budget tracker, insurance log, asset inventory, care cost projector. Because the home is only one piece of the picture.</p>
+          <p style="font-size:12.5px;color:var(--ink-mid);font-style:italic">The financial side, organized.</p>
+        </div>
+      </div>
+      <div style="text-align:center;margin-top:24px">
+        <a href="https://www.etsy.com/shop/ThePreparedLifeShop" target="_blank" rel="noopener">
+          <button class="btn-danger">Visit The Prepared Life Shop on Etsy &rarr;</button>
+        </a>
+      </div>
       <hr style="margin:28px 0;border:none;border-top:1px solid var(--border);">
-
       <p style="font-style:italic;text-align:center;color:var(--ink-mid);font-size:0.95rem;">The home you just walked through is someone's whole world. The care you're putting into this — noticing, planning, preparing — that's what keeps it that way.</p>
     </div>
     <div style="text-align:center;margin-top:20px">
